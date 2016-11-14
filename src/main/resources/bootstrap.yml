@@ -1,6 +1,6 @@
 spring:
   cloud:
     consul:
-      host: hammer.vm.sas.com
+      host: localhost
       port: 8500
 spring.application.name: HelloWorld
