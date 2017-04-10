@@ -1,6 +1,11 @@
 spring:
   cloud:
     consul:
-      host: localhost
+      host: hammer.vm.sas.com
       port: 8500
+      config:
+        watch:
+          delay: 20000
+          waitTime: 15
 spring.application.name: HelloWorld
+logging.level.org.springframework.cloud: DEBUG
